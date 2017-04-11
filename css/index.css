@@ -1,0 +1,305 @@
+/*
+* @Author: dell
+* @Date:   2017-03-30 16:49:37
+* @Last Modified by:   dell
+* @Last Modified time: 2017-03-31 00:14:45
+*/
+*{
+	margin: 0;
+	padding: 0;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+
+
+.nav{
+	height: 50px;
+	border-bottom: 1px solid #000;
+	background: #222222;
+}
+.nav .con{
+	height: 50px;
+	line-height: 50px;
+	padding: 0 15px;
+}
+.nav .con .name a{
+	display: block;
+	font-size: 18px;
+	color: #9D9D9D;
+	float: left;
+}
+.nav .con .name a:hover{
+	color: #FFFFFF;
+}
+.nav .con .right{
+	width: 470px;
+	height: 34px;
+	padding: 0 15px;
+	margin: 8px 15px 8px 0;
+	float: right;
+}
+.nav .con .right1{
+	width:196px ;
+	height: 34px;
+	float: right;
+	margin-right: 5px;
+	line-height: 34px;
+	text-align: center;
+	background: white;
+	border-radius: 4px;
+}
+.nav .con .right2{
+	width:196px ;
+	height: 34px;
+	float: right;
+	margin-right: 5px;
+	line-height: 34px;
+	text-align: center;
+	background: white;
+	border-radius: 4px;
+}
+.nav .con .right3{
+	width:66px ;
+	height: 34px;
+	float: right;
+	line-height: 34px;
+	text-align: center;
+	background: #5CB85C;
+	border-radius: 4px;
+	border: 1px solid black;
+}
+.nav .con .right3 a{
+	color: white;
+}
+/* banner开始 */
+.banner{
+	width: auto;
+	height: 234px;
+	padding: 40px 0;
+	margin-bottom: 30px;
+	background: #EEEEEE;
+}
+.banner .con1{
+	height: 234px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.banner .con1 .zi1{
+	margin: 20px 0 10px 0;
+	height: 68px;
+	line-height: 68px;
+	font-size: 64px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+.banner .con1 .zi2{
+	height: 60px;
+	font-size: 21px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+.banner .con1 .zi3{
+	height: 45px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+.banner .con1 .zi3 button{
+	width: 146px;
+	height: 44px;
+	background: #337AB7;
+	padding: 10px 16px;
+	margin-top: 10px;
+	border-radius: 4px;
+}
+.banner .con1 .zi3 button a{
+	font-size: 18px;
+	color: white;
+}
+.banner .con1 .zi3 button:hover{
+	background: #286090;
+}
+/* banner结束 */
+
+/* 文字开始 */
+.last{
+	height: 290px;
+}
+.last .con2{
+	height: 290px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.last .con2>div{
+	padding: 0 15px;
+	float: left;
+	box-sizing: border-box;
+}
+.last .con2 h2{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.last .con2 p{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.last .con2 button{
+	width: 110px;
+	height: 32px;
+	border: 1px solid #000;
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+.last .con2 button a{
+	color:black ;
+}
+.last .con2 button:hover{
+	background: #E6E6E6;
+}
+hr{
+	margin: 20px 0;
+}
+/* 文字结束 */
+
+/* 重复开始 */
+.nav1{
+	height: 50px;
+	border-bottom: 1px solid #000;
+	background: #222222;
+	display: none;
+	
+}
+.nav1 .con{
+	height: 50px;
+	line-height: 50px;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.nav1 .con .name a{
+	display: block;
+	font-size: 18px;
+	color: #9D9D9D;
+	float: left;
+}
+.nav1 .con .name a:hover{
+	color: #FFFFFF;
+}
+
+.nav1 .con .right{
+	height: 34px;
+	border-radius: 4px;
+	float: right;
+	margin:8px 15px 8px 0;
+	border: 1px solid #333;
+	background: #222222;
+	line-height: 34px;
+}
+
+.banner1{
+	width: auto;
+	height: auto;
+	padding: 40px 0;
+	margin-bottom: 30px;
+	background: #EEEEEE;
+	display: none;
+	
+}
+.banner1 .con1{
+	height: auto;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.banner1 .con1 .zi1{
+	margin: 20px 0 10px 0;
+	height: 40px;
+	line-height: 40px;
+	font-size: 36px;
+	font-weight: bold;
+}
+.banner1 .con1 .zi2{
+	height: auto;
+	font-size: 21px;
+	margin-bottom: 15px;
+}
+.banner1 .con1 .zi3{
+	height: 45px;
+	margin-bottom: 15px;
+}
+.banner1 .con1 .zi3 button{
+	width: 146px;
+	height: 44px;
+	background: #337AB7;
+	padding: 10px 16px;
+	margin-top: 10px;
+}
+.banner1 .con1 .zi3 button a{
+	font-size: 18px;
+	color: white;
+}
+.banner1 .con1 .zi3 button:hover{
+	background: #286090;
+}
+.last1{
+	height: 290px;
+	display: none;
+	
+}
+.last1 .con2{
+	height: 290px;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.last1 .con2>div{
+	padding: 0 15px;
+	float: left;
+	box-sizing: border-box;
+}
+.last1 .con2 h2{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 30px;
+}
+.last1 .con2 p{
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.last1 .con2 button{
+	width: 110px;
+	height: 32px;
+	border: 1px solid #000;
+	background: #FFFFFF;
+}
+.last1 .con2 button a{
+	color:black ;
+}
+.last1 .con2 button:hover{
+	background: #E6E6E6;
+}
+hr{
+	margin: 20px 0;
+}
+/* 重复结束 */
+@media screen and (max-width: 768px){
+	.nav1{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+	.last1{
+		display: block;
+	}
+	.last{
+		display: none;
+	}
+	.banner1{
+		display: block;
+	}
+	.banner{
+		display: none;
+	}
+}
